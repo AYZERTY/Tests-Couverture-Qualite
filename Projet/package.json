@@ -1,0 +1,29 @@
+{
+  "name": "tests-couverture-qualite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TP chapitre 2 : partie A et début de B1, tests unitaires et TDD.",
+  "type": "module",
+  "engines": {
+    "node": "^22.13.0 || >=24.0.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
+    "check": "npm run lint && npm run test:coverage"
+  },
+  "dependencies": {
+    "express": "5.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@vitest/coverage-v8": "4.1.11",
+    "eslint": "10.12.0",
+    "globals": "16.5.0",
+    "supertest": "7.3.1",
+    "vitest": "4.1.11"
+  }
+}
