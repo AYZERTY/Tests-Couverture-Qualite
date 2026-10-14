@@ -1,0 +1,8 @@
+136 tests réussis dans 6 fichiers.
+ESLint : zéro erreur.
+Couverture mesurée :
+- lines: 100 %
+- statements: 100 %
+- functions: 100 %
+- branches: 99.06 %
+Ces résultats ont été obtenus localement. Aucun pipeline CI n’est inclus à ce stade.
